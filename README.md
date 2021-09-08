@@ -6,7 +6,7 @@ Application of generalized linear model based on multiple imputation in renal di
 library(openxlsx)
 data<-read.xlsx("data.xlsx",sheet = 1)
 
-#定义因子变量
+定义因子变量
 体质指数
 data$BMI<-factor(data$BMI,levels = c(2,1,3))
 性别
